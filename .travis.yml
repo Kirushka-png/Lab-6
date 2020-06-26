@@ -5,6 +5,6 @@ script:
   echo Starting work...
 import:
 - source: .travis/default.yml
-if: branch = dev
+  if: branch = dev
 - source: .travis/release.yml
-if: branch = master
+  if: branch = master
