@@ -7,11 +7,11 @@ script:
   - cd ..
 
 deploy:
-provider: releases
-prerelease: true
-api_key: $GITHUB_TOKEN
-skip_cleanup: true
-on:
-repo: Kirushka-png/Lab-6
-branch: dev
-tags: false
+  provider: releases
+  prerelease: true
+  api_key: $GITHUB_TOKEN
+  skip_cleanup: true
+  on:
+    repo: Kirushka-png/Lab-6
+    branch: dev
+    tags: false
