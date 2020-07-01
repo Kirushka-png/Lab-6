@@ -1,10 +1,10 @@
-
 language: python
 puthon: 3.8
 script:
   - cd PythonApplication1
   - pytest
   - cd ..
+
 deploy:
   provider: releases
   prerelease: true
@@ -13,4 +13,4 @@ deploy:
   on:
     repo: Kirushka-png/Lab-6
     branch: dev
-    tags: true
+    tags: false
