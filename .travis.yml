@@ -1,4 +1,3 @@
-
 import:
 - source: .travis/default.yml
-if: branch = dev
+  if: branch = dev
